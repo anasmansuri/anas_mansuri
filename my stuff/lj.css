@@ -1,0 +1,27 @@
+h1
+{
+	color:white;
+	text-align:center;
+	font-size:45px;
+}
+table
+{
+	
+	border-top:solid;
+}
+td
+{
+	
+}
+th
+{
+	border-style:outset;
+	background:orange;
+	color:white;
+}
+img{
+	height:110px;
+	width:160px;
+border:dotted;
+border-color:red;
+}
