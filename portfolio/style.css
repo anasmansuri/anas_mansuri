@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+nav {
+  height: 64px;
+  background-color: #000000;
+}
+
+nav .nav-wrapper {
+  max-width: 900px;
+  margin: auto;
+}
+
+nav .nav-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+nav .nav-wrapper ul li {
+  color: #ffffff;
+  line-height: 64px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+}
+
+nav .nav-wrapper .download-btn {
+  background-color: #6fd1bd;
+  line-height: 64px;
+  border: none;
+  height: 64px;
+  padding: 0 20px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  nav .nav-wrapper .download-btn {
+    /* display: none; */
+    display: none;
+  }
+}
+
+nav .nav-wrapper .download-btn:hover {
+  background-color: salmon;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.title_contaniner {
+  margin: 0;
+}
+
+.title-sub {
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  display: inline-block;
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+  border-top: 6px solid;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.header-right {
+  float: right;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin: auto;
+}
+
+.header-right ul {
+  list-style: none;
+}
+
+.header-right a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: bolder;
+  color: black;
+  -webkit-text-decoration-color: aqua;
+          text-decoration-color: aqua;
+}
+
+.name-shadow {
+  text-shadow: 4px 3px 2px aqua;
+}
+
+.name-shadow:hover {
+  text-shadow: -4px -2px 2px   salmon;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.middle {
+  border-top: solid 1px gray;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.middle-left {
+  display: inline-block;
+  max-width: 500px;
+  margin: 30px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.middle-right {
+  max-width: 700px;
+  display: inline-block;
+}
+
+.hover-effect {
+  background-color: #6fd1bd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hover-effect:hover {
+  background-color: #6fd1bd;
+  padding: 12px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+/*# sourceMappingURL=style.css.map */

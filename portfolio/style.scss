@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+nav {
+  height: 64px;
+  background-color: #000000;
+
+  .nav-wrapper {
+    max-width: 900px;
+    margin: auto;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: inline;
+      li {
+        color: #ffffff;
+        line-height: 64px;
+        font-family: "Open Sans", sans-serif;
+        padding: 0 10px 0 10px;
+        display: inline-block;
+      }
+    }
+    .download-btn {
+      background-color: #6fd1bd;
+      line-height: 64px;
+      border: none;
+      height: 64px;
+      padding: 0 20px;
+      color: #ffffff;
+      @media screen and (max-width: 500px) {
+        /* display: none; */
+        display: none;
+      }
+      &:hover {
+        background-color: salmon;
+      }
+    }
+  }
+}
+.container{
+  max-width: 900px;
+  margin:auto;
+  padding: 0;
+  margin-top:10px;
+}
+.title_contaniner{
+  margin:0;
+}
+.title-sub{
+  font-family: 'Open Sans', sans-serif;
+font-style: bold;
+display: inline-block;
+font-size:23px;
+margin:0;
+padding: 0;
+border-top:6px solid;
+}
+.title{
+  font-family: 'Open Sans', sans-serif;
+//font-family: 'Source Sans Pro', sans-serif;
+  font-size:70px;
+  font-weight:bolder;
+}
+
+.header-right{
+  float:right;
+  display: inline-block;
+  flex-direction: column-reverse;
+  margin: auto;
+  ul {
+    list-style: none;
+}
+ a{
+font-family: 'Open Sans', sans-serif;
+font-style: bolder;
+  color:black;
+  text-decoration-color: aqua;  
+}
+}
+.name-shadow{
+  text-shadow: 4px 3px 2px aqua;
+    &:hover{
+      text-shadow: -4px -2px 2px   salmon;
+      transition: all 0.3s linear;
+    }  
+}
+.middle{
+  border-top:solid 1px gray;
+  max-width: 900px;
+  margin: auto;
+  margin-top:10px;
+}
+.middle-left{ 
+  border: solid;
+  display:inline-block; 
+  max-width: 500px;
+  margin: 30px;
+  align-items: baseline;
+ }  
+.middle-right{
+  max-width: 700px;
+  display: inline-block;
+  
+}
+
+.hover-effect
+{
+  background-color: #6fd1bd;
+  padding: 5px;
+  border-radius: 5px;
+  &:hover{
+    background-color: #6fd1bd;
+    padding: 12px;
+    transition: all 0.2s linear;
+  }
+}
